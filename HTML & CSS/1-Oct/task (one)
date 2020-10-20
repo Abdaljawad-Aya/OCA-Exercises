@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling</title>
+  <style>
+    #body {
+
+background-color: rgb(255, 252, 206);
+}
+
+#box1 {
+
+border-style: solid;
+color: black;
+padding: 20px;
+margin-bottom: 10px;
+background: white;
+height: 50%;
+border-width: 1px;
+
+
+
+}
+
+#box2 {
+
+border-style: solid;
+color: black;
+padding: 20px;
+margin-bottom: 10px;
+background: white;
+border-width: 1px;
+}
+
+#coloredbox {
+border-style: dotted;
+border-color: red;
+padding: 20px;
+background: white;
+
+}
+
+#id {
+color: red;
+}
+
+.boxInsidebox {
+border-style: dotted;
+border-color: red;
+padding: 10px;
+}
+  </style>
+  <!-- <link rel="stylesheet" href="CSS Articales.css"> -->
+</head>
+
+<body id="body">
+  <h1>CSS Articales - External CSS Sheet!</h1>
+  <article id="box1">
+    <h2>Heading .Num2</h2>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora cupiditate illum, totam quaerat animi nam quo
+    necessitatibus distinctio quos deserunt aperiam ullam, reprehenderit recusandae quidem. Quibusdam, animi! Itaque,
+    alias voluptatibus.
+  </article>
+  <article id="box2">
+    <h2>Heading .Num2</h2>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nobis hic natus ut! Dolores cupiditate a pariatur.
+    Doloremque culpa praesentium, fuga, quos neque sed atque nostrum mollitia cum optio ex? Lorem ipsum dolor sit, amet
+    consectetur adipisicing elit. Eius blanditiis fuga corporis, qui quibusdam nulla commodi quos voluptatum numquam,
+    nostrum amet quod sint inventore at officia libero odit aliquam repudiandae.
+  </article>
+  <article id="coloredbox">
+    <h2 id="id">Heading .Num2</h2>
+    <section class="boxInsidebox">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nobis hic natus ut!
+      Dolores cupiditate a pariatur. Doloremque culpa praesentium, fuga, quos neque sed atque nostrum mollitia cum optio
+      ex? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius blanditiis fuga corporis, qui quibusdam nulla
+      commodi quos voluptatum numquam, nostrum amet quod sint inventore at officia libero odit aliquam repudiandae.
+    </section>
+  </article>
+</body>
+
+</html>
