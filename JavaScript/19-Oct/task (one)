@@ -1,1 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <title>form</title>
+
+  <style>
+ h
+    html,body{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+ 
+}
+
+
+    h2{
+      color: white;
+      margin-top: 6%;
+       text-align: center;
+       font-size: 25px;
+       transform: translate(-1%, 26%);
+
+     
+    }
+ 
+    .create{
+     
+       text-align: center;
+       margin-left: -30%;
+       margin-right: -30%;
+       border-radius: 10px;
+       width: 150%;
+       background-color: rgb(61, 56, 56);
+    }
+    header{
+      position: relative;
+      right: -45%;
+    
+    }
+
+    label{
+    }
+
+  input{
+    border-radius: 20px;
+   
+  }
+  .one1{
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    width: 80%;
+
+  }
+  .tw1{
+
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    width: 80%;
+   
+    
+  }
+   .fo1{
+   
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    width: 80%;
+   
+
+   }
+  
+  .th1{
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    width: 80%;
+    
+
+  }
+
+  button{
+    position: relative;
+    left: 18%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(154, 168, 103);
+    margin-bottom: 3%;
+   padding-left: 5%;
+   padding-right: 5%;
+     
+  }
+
+  </style>
+</head>
+<body> 
+  
+  <header>
+    <form class="create" action="/action_page.php"method="GET">
+      <h2>Create an Account</h2>
+      <hr>
+      
+      
+      
+      <div class="one">
+        <label for="name">  </label>
+      <input type="text" class="one1" id="name" name="Name" placeholder=" &#xf007; Name" required style="border: hidden;"> 
+    </div> <br>
+    <div class="two">
+      <label for="phone"></label>
+      <input type="number" class="tw1" id="PhoneNumber" name="phone number" placeholder=" &#xf2a0; Phone Number"  required style="border: hidden; color: olive;">
+    </div> <br>
+    <div class="three">
+      <label for="Email"></label>
+      <input type="text" class="th1" id="Email" name="Email" placeholder=" &#xf0e0; Email" required style="border: hidden;">
+    </div> <br>
+    <div class="four">
+      <label for="password">  </label>
+      <input type="password" class="fo1" id="password" name="password" placeholder=" &#xf023; Password" required style="border: hidden;">
+    </div> <br>
+    <div> 
+      <p id="demo"></p>
+      <input type="checkbox" id="agreeToTerms" name="agreeToTerms" value="agreed" required></input>
+     
+      <label for="checkbox" style="color: white;"><p>I agree to the Terms and Conditions & Privacy Policy</p></label><br>
+      
+    </div>
+    <input type="button" value="validate" onclick="chkpwd()"></input>
+    <input type="text" id="pass" size="8" maxlength="8"></input>
+    <button type="submit">Create Account</button>
+    <!-- <form name="myform" action="dropdown.php" onsubmit="return validate()">
+    </form> -->
+  </form>
+</header>
+
+  <script>
+const name = document.getElementById('name')
+const password = document.getElementById('password')
+const password = document.getElementById('PhoneNumber')
+const Email = document.getElementById('Email')
+const form = document.getElementById('form')
+const errorElement = document.getElementById('error')
+// agreeToTerms.addEventListener("click", function(){
+//   if (agreeToTerms.checked) 
+// });
+form.addEventListener('submit',(e) =>{
+  // const pattern = /^[\w]{6,8}$/;
+  let messages = []
+  if (name.value === ' ' || name.value == null){
+    messages.push('Name is required')  
+  }
+  if (password.value.length <=6){
+    messages.push('Password must be longer than 6 characters')  
+  }
+  if (password.value.length >=20){
+    messages.push('Password must be less than 20 characters')  
+  }
+
+  if (password.value === 'password'){
+    messages.push('Password cannot be password')  
+  }
+
+  if (messages.length > 9){
+    e.preventDefault()
+    errorElement.innerText = messages.join()
+  }
+ 
+})   
+
+function validate(){
+  var str =document.getElementById("agreeToTerms").value;
+  if (str.length < 8)
+  {
+    document.getElementById('demo').innerHTML = 'Password length Must be 8 char';
+    document.getElementById('demo').style.color='Red';
+    return('too_short');
+  }else if (str.search(/[0-9]/)== -1){
+    document.getElementById('demo').innerHTML = 'at least 1 numeric value must be enter';
+    document.getElementById('demo').style.color='Red';
+    return('too_short');
+  }
+
+  else if (str.search(/[a-z]/)== -1){
+    document.getElementById('demo').innerHTML = 'at least 1 small letter';
+    document.getElementById('demo').style.color='Red';
+    return('no_letter');
+
+ 
+}
+
+else if (str.search(/[A-Z]/)== -1){
+    document.getElementById('demo').innerHTML = 'at least 1 Upper letter must be enter';
+    document.getElementById('demo').style.color='Red';
+    return('no_Uletter');
+}else if (str.search(/[!\@\#\$\%\^\&\(\)\+\.\,\;\:]/)== -1){
+    document.getElementById('demo').innerHTML = 'at least 1 small letter';
+    document.getElementById('demo').style.color='Red';
+    return('no_letter');
+}
+
+    document.getElementById('demo').innerHTML = 'Successful !';
+    document.getElementById('demo').style.color='Green';
+    return('ok');
+
+}
+  </script>
+</body>
+</html>
