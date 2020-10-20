@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<!--Head-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal details</title>
+</head>
+
+<body>
+  <!--paragraph-->
+
+  <p style="text-align: left; font-weight: bold;">Registration Form</p>
+
+  <!--link-->
+
+  <link rel="stylesheet" href="style2.css">
+
+  <!-- articale 1 -->
+
+  <article class="container1">
+    <fieldset>
+      <legend>Personal details</legend>
+      <form>
+        First Name <input type"text" name="username" /><br /> <br />
+
+        Last Name <input type"text" name="username" /><br /> <br />
+
+        Email address <input type="email" name="email" /> <br> <br>
+
+        Gender <input type="radio" name="gender" value="male" />male
+
+        <input type="radio" name="gender" value="female" />female <br> <br>
+      </form>
+    </fieldset>
+  </article>
+
+
+  <!-- articale 2 -->
+
+  <article class="container2">
+    <fieldset id="city">
+      <legend>city</legend>
+
+      <form>
+        City <select>
+          <option value="amman">amman</option>
+          <option value="aqaba">aqaba</option>
+          <option value="petra">petra</option>
+        </select>
+      </form>
+    </fieldset> <br>
+  </article>
+  <button style="text-align: center;" type="subscribe" value="subscribe">subscribe</button> <br>
+  </form>
+
+
+</body>
+
+</html>
