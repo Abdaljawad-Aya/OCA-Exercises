@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling</title>
+</head>
+
+<body>
+  <p><b>Have Fun While Styling!</b></p>
+  <link rel="stylesheet" href="style3.css">
+  <p style="color: blue;"> Here is a <a href="https://www.google.com/" target="_blank">with a link</a> text . Lets do it
+    !</p>
+  <p>We have more <a href="https://www.google.com/" target="_blank">links</a> here ;</p>
+  <p>Is this a (<a id="link" href="https://www.google.com/" target="_blank"><mark>Link</mark></a>) ?</p>
+
+  <p>We Have a List</p>
+  <ul>
+    <li style="font-weight: bold;">Please, <a href="www.yahoo.com " style="text-decoration: black;">Click Me!</a>
+      </u> </li>
+    <li>Can You? let's count</li>
+    <ul>
+      <li class="circle"><b>111</b></li>
+      <li class="circle"> 222<a href="https://www.google.com/" target="_blank"> <b>Another Link</b> </a></li>
+      <li class="circle">333</li>
+      <ul>
+        <li class="sqaure" style="font-weight: bold;">red</li>
+        <li class="sqaure">green</li>
+        <li class="sqaure">blue <a href="https://www.google.com/" target="_blank"> Color Links</a></li>
+
+
+      </ul>
+    </ul>
+  </ul>
+  <ul>
+    <li style="font-weight: bold;">
+      That's Enough !
+    </li>
+
+  </ul>
+
+</body>
+
+</html>
