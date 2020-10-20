@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling</title>
+  <style>
+    /* the Yellow Boxes*/
+
+#yellow1 {
+  display: flex;
+
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  position: relative;
+
+
+
+}
+
+.yellow2 {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  right: -250%;
+  margin-top: -2%;
+
+}
+
+.yellow3 {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  right: -250%;
+  margin-top: -2%;
+
+}
+
+.yellow4 {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  right: -250%;
+  margin-top: -2%;
+
+}
+
+.yellow5 {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  right: -250%;
+  margin-top: -2%;
+
+}
+
+/* the Green Boxes*/
+
+#green1 {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  right: -6%;
+  position: relative;
+  margin-top: -3%;
+
+}
+
+.green2 {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  right: -250%;
+
+}
+
+
+
+
+.green3 {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  right: -250%;
+
+
+}
+
+.green4 {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  right: -250%;
+
+}
+
+.green5 {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  right: -250%;
+
+
+}
+  </style>
+  <!-- <link rel="stylesheet" href="ZigZagBoxes.css"> -->
+</head>
+
+<body>
+  <h1>Zig-zag Boxes</h1>
+  <hr> <br> <br>
+
+  <div id="yellow1">
+    <div class="yellow2">
+      <div class="yellow3">
+        <div class="yellow4">
+          <div class="yellow5">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="green1">
+    <div class="green2">
+      <div class="green3">
+        <div class="green4">
+          <div class="green5">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
