@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web pages using flex box2</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      flex-basis: 191.3px;
+
+
+    }
+
+    #container {
+
+      display: flex;
+      display: flexbox;
+      margin: 0rem;
+      /* flex-direction: row;*/
+      flex-wrap: wrap;
+      height: 25vh;
+      justify-content: center;
+      font-size: 40px;
+      justify-content: left;
+      border-style: solid;
+      border-color: orange;
+      border-width: 5px;
+      width: 14.6em;
+      /*margin: 1em auto 1em auto;*/
+      height: 50vh;
+
+
+
+
+
+    }
+
+    .file1 {
+      background: yellow;
+      padding: 1rem;
+      margin: 0rem;
+      text-align: center;
+      flex-wrap: wrap;
+      color: black;
+      text-shadow: rgb(92, 92, 92) 2px 0px 5px;
+    }
+
+    .file2 {
+      background: green;
+      padding: 1rem;
+      margin: 0rem;
+      text-align: center;
+      flex-wrap: wrap;
+      color: black;
+      text-shadow: rgb(92, 92, 92) 2px 0px 5px;
+    }
+
+    .file3 {
+      background: rgb(21, 169, 255);
+      padding: 1rem;
+      margin: 0rem;
+      text-align: center;
+      flex-wrap: wrap;
+      color: black;
+      text-shadow: rgb(92, 92, 92) 2px 0px 5px;
+    }
+
+    .file4 {
+      background: rgb(169, 64, 255);
+      padding: 1rem;
+      margin: 0rem;
+      text-align: center;
+      flex-wrap: wrap;
+      color: black;
+      text-shadow: rgb(92, 92, 92) 2px 0px 5px;
+    }
+
+    .file5 {
+      background: rgb(151, 60, 60);
+      padding: 1rem;
+      margin: 0rem;
+      text-align: center;
+      flex-wrap: wrap;
+      color: black;
+      text-shadow: rgb(92, 92, 92) 2px 0px 5px;
+    }
+
+    .file6 {
+      background: rgb(96, 112, 255);
+      padding: 1rem;
+      margin: 0rem;
+      text-align: center;
+      flex-wrap: wrap;
+      color: black;
+      text-shadow: rgb(92, 92, 92) 2px 0px 5px;
+    }
+
+    .file7 {
+      background: rgba(0, 47, 255, 0.671);
+      padding: 1rem;
+      margin: 0rem;
+      text-align: center;
+      flex-wrap: wrap;
+      color: black;
+      text-shadow: rgb(92, 92, 92) 2px 0px 5px;
+    }
+
+    .file8 {
+      background: rgb(255, 20, 196);
+      padding: 1rem;
+      margin: 0rem;
+      text-align: center;
+      flex-wrap: wrap;
+      color: black;
+      text-shadow: rgb(92, 92, 92) 2px 0px 5px;
+    }
+
+    .file9 {
+      background: rgb(104, 0, 104);
+      padding: 1rem;
+      margin: 0rem;
+      text-align: center;
+      flex-wrap: wrap;
+      color: black;
+      text-shadow: rgb(92, 92, 92) 2px 0px 5px;
+    }
+
+    .file10 {
+      background: rgb(35, 255, 82);
+      padding: 1rem;
+      margin: 0rem;
+      text-align: center;
+      flex-wrap: wrap;
+
+      color: black;
+      text-shadow: rgb(92, 92, 92) 2px 0px 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+    <div class="file1">1
+    </div>
+    <div class="file2">2</div>
+    <div class="file3">3</div>
+    <div class="file4">4</div>
+    <div class="file5">5</div>
+    <div class="file6">6</div>
+    <div class="file7">7</div>
+    <div class="file8">8</div>
+    <div class="file9">9</div>
+    <div class="file10">10</div>
+  </div>
+
+
+
+</body>
+
+</html>
