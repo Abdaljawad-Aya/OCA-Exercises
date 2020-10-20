@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<body>
+  
 
+
+
+
+
+  <script>
+  // var ourArray = [];
+  // for (var i = 0; i < 10 ; i +=2){
+  //   ourArray.push(i);
+  // }
+  // var myArray =[];
+  // for (var i =1; i <10; i+=2){
+  //   if (i% 2==0)
+  //   console.log(i)
+  //   myArray.push(i)
+  //   console.log(myArray) 
+  // var myArray1 = [];
+  // for   
+  // }
+
+  function sum_odd(){
+
+    var odd = [];
+    for (var i = 1; i < 10; i++) {
+        if (i % 2 == 1) {
+            odd.push(i);
+        }
+    }
+    return odd;    
+}
+
+// var x = sum_odd();
+// console.log(x);
+
+function sum_even(){
+    var even =[];
+    for (var i = 1; i < 10; i++) {
+        if (i % 2 == 0) {
+            even.push(i);
+        }
+    }
+    return even;    
+}
+
+console.log(sum_odd());
+console.log(sum_even());
+
+
+
+
+
+// arr = [];
+//   for(var i=1; i <= 10; i++)
+//       if (i% 2==1)
+//       console.log(i)
+//       if (i% 3==0)
+//       console.log(i)
+
+    
+    // function fillInNumbers(i){
+    //   return Array(i)
+    //     .fill(0)
+    //     .map((_, index) <= index +1);
+    //     }
+
+    //  console.log(fillInNumbers(10));  
+  //  var arr =[]
+
+    
+  //    for  (var i=1; i <= 10; i++)
+  //       if (i% 2==0)
+  //        console.log([i])
+  //        console.log('Even Numbers')
+
+
+  //       elseif (i% 3==0) 
+  //        console.log([i])
+  //        console.log('Odd Numbers')
+
+  // var index,      // we use that in the for loop
+  //       counter,    // number of elements in array
+  //       myArray;    // the array you want to fill
+
+    // counter = 10;
+    // myArray = [];
+// function (Even_Odd){
+//     for (var i = 1 ; i <= 10; i+= 1) {
+
+//         // // myArray[index] = [];
+//         // /* 
+//         alternative:
+//         myArray.push([]);
+//         // one-liner
+//         for (i = 0; i <= 10; i+= 1) myArray.push([]);
+        
+//     }
+
+</script>
+</body>
+</html>
