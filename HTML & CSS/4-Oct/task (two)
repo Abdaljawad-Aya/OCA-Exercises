@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="flexbox.css">
+  <style>
+    .ResponsiveFlexBox {
+      display: flex;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 40px;
+      line-height: 85vh;
+
+    }
+
+    .FirstPart {
+      width: 50%;
+      height: 95vh;
+      color: white;
+      background: orange;
+
+    }
+
+    .SecondPart {
+      width: 50%;
+      color: white;
+      background: blue;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class='ResponsiveFlexBox'>
+    <div class="FirstPart">First Part</div>
+    <div class="SecondPart">Second Part</div>
+
+  </div>
+</body>
+
+</html>
