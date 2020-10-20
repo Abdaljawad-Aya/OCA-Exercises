@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Stronger</title>
+</head>
+<body>
+    <!--Start-->
+    <p>github</p> <br>
 
+
+    <h1 style="text-align: center;">Lets</h1>
+    <h2 style="text-align: center;">Get</h2>
+    <h3 style="text-align: center;">Going</h3> <br>
+
+    <p style="text-align: center;text-transform: capitalize;"><b>No Pain, No Gain</b></p> <br> <hr>
+    <p style="text-align: center;text-transform: capitalize;"><i>Being on the right track</i></p> <br> <hr>
+    <p style="text-align: center;text-transform: capitalize;"><em>Learn</em></p> <br> <hr>
+    
+
+    <a href="https://github.com/">github</a><br>
+    <a href="https://github.com/" target="_blank">github</a> <br>
+    <a href="#">github</a> <br>
+
+    <img src="https://i.ytimg.com/vi/oMld325gYbM/maxresdefault.jpg" alt="Google" height=" 100px" width="150px"> <br>
+    <img src="maxresdefault.jpg" alt="Google"> <br>
+    <img src="../oca/maxresdefault.jpg" alt="Google"> <br> 
+     
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <ol> 
+            <li>ordered list one</li>
+            <li>ordered list two</li>
+            <li>ordered list three</li>
+        </ol>
+        <li>4</li>
+    </ul>
+    <ol> 
+        <li>ordered list one</li>
+        <li>ordered list two</li>
+        <li>ordered list three</li>
+    </ol>
+    <ul>
+        <li>I</li>
+        <li>Hope</li>
+        <li>It works</li>
+    </ul>
+    
+</body>
+</html>
