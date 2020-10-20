@@ -6,10 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Styling</title>
 </head>
+<style>
 
+b {
+  text-decoration: underline;
+  font-family: cursive;
+}
+
+a {
+  color: red;
+}
+
+p#link {
+  text-decoration: black;
+}
+
+li.circle {
+  list-style-type: circle;
+}
+
+li.sqaure {
+  list-style-type: none;
+}
+
+li.sqaure,
+a {
+  font-weight: bold;
+}
+</style>
 <body>
   <p><b>Have Fun While Styling!</b></p>
-  <link rel="stylesheet" href="style3.css">
+ 
   <p style="color: blue;"> Here is a <a href="https://www.google.com/" target="_blank">with a link</a> text . Lets do it
     !</p>
   <p>We have more <a href="https://www.google.com/" target="_blank">links</a> here ;</p>
