@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Stronger</title>
+    <style>
+        table, th , td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!--Start-->
+    
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th colspan="2">First Name</th>
+                <th colspan="2">Last Name</th>
+               
+            </tr>
+        </thead>
+            <tr>
+                <td>1</td>
+                <td align="center" >Ayah</td>
+                <td colspan="">Abd Al jawad</td>
+            
+            </tr>
+            <tr>
+                <td>2</td>
+                <td align="center" colspan="2">maya</td>
+                <td colspan="2">Abd Al jawad</td>
+             
+            </tr> <br/>
+            
+        
+        
+        
+    </table> <br/>
+    <form>
+        Username: <input type "text" name="username"/><br/> <br/>
+        Password: <input type="password" value="FakePSW" id="myInput"> <br/> <br/>
+        
 
+        <input type="radio" name="gender" value="male"/>male <br/> 
+        <input type="radio" name="gender" value="female"/>female <br/> <hr>
+        <input type="checkbox" name="gender" value="male"/>male <br/> 
+        <input type="checkbox" name="gender" value="female"/>female <br/> <hr>
+        <textarea id="html" name="html" rows="2" cols="25">
+     </textarea>  <br/> <hr>
+     Email:<input type="email" name="email"/>  <br/> <hr>
+     Date: <input type="date" name="date"/>  <br/> <hr>
+     Phone Numder : <input type="number" name="numder"/> <br/> <hr>
+        <select name="boxing" id="boxing"> 
+            <option value="uppercut">UpperCut</option>
+            <option value="hook">Hook</option>
+            <option value="stright">Stright</option>
+        </select> <br/> <hr>
+        <input type="submit"value ="submit"/> 
+        <button type="reset" value="Reset">Reset</button>
+        
+       
+     </form>
+
+</body>
+</html>
