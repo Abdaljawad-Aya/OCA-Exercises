@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling</title>
+  <style>
+    #body {
+  background-color: lightyellow;
+
+
+}
+
+#block1 {
+
+  border-color: lightsalmon;
+  background-color: rgb(255, 234, 118);
+  padding-bottom: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 15px;
+
+
+
+
+}
+
+h1 {
+  position: absolute;
+  top: -1%;
+  right: 65%;
+
+
+
+}
+
+#block2 {
+  padding-top: 15px;
+  border-color: lightsalmon;
+  background-color: white;
+  padding-bottom: 0.1px;
+  margin-left: 100px;
+  margin-right: 200px;
+  width: 50%;
+  height: 121.5%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#block3 {
+  padding-top: 15px;
+  background-color: lightgray;
+  height: 119.2%;
+  width: 174.5px;
+  position: absolute;
+  left: 65%;
+  top: 103px;
+}
+
+
+
+
+ul {
+
+  position: absolute;
+  left: 1.9%;
+  top: 2.7%;
+
+
+}
+  </style>
+  <!-- <link rel="stylesheet" href="column layout.css"> -->
+</head>
+
+
+<body id="body">
+  <article id="block1">
+    <h1 class="center" style="text-align:center ">2-column layout </h1>
+  </article>
+  <article id="block2">
+    <p class="center2" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+      sapiente
+      laborum eveniet dolore ea
+      doloremque nulla,
+      a cumque voluptatibus consectetur voluptates reprehenderit pariatur possimus nobis consequuntur dignissimos itaque
+      tenetur voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus deleniti consequatur
+      architecto possimus, quas sit. Adipisci voluptates officia voluptatibus veniam nulla, voluptas autem, ipsum
+      repellat error aliquam alias consequuntur porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+      voluptatum doloribus? Quod aut quasi at aliquam dignissimos, quaerat sint? Quia officia quis ut sit. Repudiandae
+      deleniti consequatur natus sit suscipit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+      praesentium, accusamus quaerat tempora eum amet labore non officiis magnam aliquid perferendis debitis! Quod
+      asperiores eaque laboriosam illum vitae voluptate quos.</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia odio, repudiandae ipsam saepe quis nihil et ad
+      suscipit consequuntur deleniti eos iste, voluptatem eligendi quas id impedit illo consequatur quam. Lorem ipsum,
+      dolor sit amet consectetur adipisicing elit. Sunt cupiditate, nisi pariatur saepe dolorum eius alias consectetur
+      ducimus dicta quod provident sit doloribus fugit incidunt. Nihil deleniti nostrum nisi ex? Lorem ipsum dolor sit,
+      amet consectetur adipisicing elit. Vitae nisi, necessitatibus doloremque voluptatem facere maxime dolores
+      inventore eius corporis ullam nam. Minima magni tempora, adipisci pariatur obcaecati quos tempore culpa. Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, mollitia, reprehenderit aspernatur maiores
+      perferendis provident neque, rem sapiente cupiditate doloremque laudantium! Eum non laborum, minima ab dicta enim
+      reprehenderit voluptatem? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore ducimus illum, ipsa,
+      natus unde ea iste deserunt consequuntur, corporis cumque est nam mollitia omnis debitis eius! Cupiditate aliquid
+      ad est?
+    </p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, earum. Minus animi voluptatem magni
+      t Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, aliquam delectus cupiditate suscipit
+      explicabo sequi necessitatibus error dolore cumque eaque eveniet a obcaecati quae modi architecto voluptas maiores
+      placeat ex.
+    </p>
+
+
+  </article>
+
+  <article id="block3">
+    <aside>
+      <table>
+        <ul>
+          <li class="one">Item #1</li>
+          <li class="two">Item #2</li>
+          <li class="three">Item #3</li>
+
+
+
+        </ul>
+      </table>
+    </aside>
+  </article>
+
+
+</body>
+
+</html>
