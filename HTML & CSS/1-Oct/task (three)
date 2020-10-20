@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling</title>
+  <style>
+
+table {
+   border-collapse: separate;
+   border-spacing: 6px 6px;
+
+
+ }
+
+ .one1 {
+
+   box-shadow: 3px 3px 3px grey;
+   padding: 5px;
+   margin-bottom: 10px;
+   border-radius: 6px;
+
+
+ }
+
+ .one2 {
+   box-shadow: 3px 3px 3px grey;
+   padding: 5px;
+   margin-bottom: 10px;
+   border-radius: 6px;
+
+
+ }
+
+ .one3 {
+   box-shadow: 3px 3px 3px grey;
+   padding: 5px;
+   margin-bottom: 10px;
+   border-radius: 6px;
+
+ }
+
+ .two1 {
+   box-shadow: 3px 3px 3px grey;
+   padding: 5px;
+   margin-bottom: 10px;
+   border-radius: 6px;
+
+ }
+
+ .two2 {
+   box-shadow: 3px 3px 3px grey;
+   padding: 5px;
+   margin-bottom: 10px;
+   border-radius: 6px;
+
+ }
+
+
+ .two3 {
+   box-shadow: 3px 3px 3px grey;
+   padding: 5px;
+   margin-bottom: 10px;
+   border-radius: 6px;
+
+
+ }
+  </style>
+  <!-- <link rel="stylesheet" href="Tables.css"> -->
+</head>
+
+<body>
+  <h3> Table Styling
+  </h3>
+  <table id="First">
+
+    <tr>
+
+      <td class="one1" style="border:1px solid black;">
+        Row 1, col 1</td>
+      <td class="one2" style="border:1px solid black;">Row 1, col 2</td>
+      <td class="one3" style="border:1px solid black;">Row 1, col 3</td>
+
+    </tr>
+
+  </table>
+  <table id="second">
+    <tr>
+
+      <td class="two1" style="border:1px solid black;">Row 2, col 1</td>
+      <td class="two2" style="border:1px solid black;">Row 2, col 2</td>
+      <td class="two3" style="border:1px solid black;">Row 2, col 3</td>
+
+    </tr>
+  </table>
+
+
+
+</body>
+
+</html>
