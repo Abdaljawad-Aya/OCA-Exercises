@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web pages using Flex box1</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+
+    body {
+      background: rgb(255, 255, 200);
+    }
+
+    #container {
+      display: flex;
+      margin: 1rem;
+      /*flex-direction: row;*/
+      /*flex-wrap: wrap;*/
+      /* height: 100vh;*/
+      justify-content: center;
+
+    }
+
+    .item {
+
+
+      padding: 1rem;
+      margin: 2rem;
+      text-align: center;
+      /* margin: 0.75rem;*/
+      /* flex: 1;*/
+      flex-basis: 355px;
+      height: 25rem;
+      border-radius: 100px;
+      width: 70%;
+      background: white;
+
+    }
+
+    .fa.fa-user-circle {
+      position: relative;
+      margin-top: 2%;
+      /*vertical-align: middle;*/
+      align-content: center;
+      position: relative;
+      right: 100px;
+
+    }
+
+    .User {
+      text-align: right;
+      position: relative;
+      right: 48px;
+      bottom: 12%;
+    }
+
+
+    /* #container :nth-child(even) {}*/
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+    <div class="item">
+      <i class="fa fa-user-circle" style="font-size: 55px;color:gray;">
+      </i>
+      <div class="User">
+        <p>#User1
+          Amman,Jordan </p>
+
+      </div>
+
+      <hr> <br>
+      <i class="fa fa-user-circle" style="font-size:55px;color:gray"></i>
+      <div class="User">
+        <p>#User2 Amman,Jordan</p>
+      </div>
+      <hr> <br>
+      <i class="fa fa-user-circle" style="font-size:55px;color:gray"></i>
+      <div class="User">
+        <p>#User3 Amman,Jordan</p>
+      </div>
+      <hr> <br>
+      <i class="fa fa-user-circle" style="font-size:55px;color:gray"></i>
+      <div class="User">
+        <p>#User4 Amman,Jordan</p>
+      </div> <br>
+    </div>
+  </div>
+
+
+
+  </div>
+
+
+  </div>
+
+</body>
+
+</html>
