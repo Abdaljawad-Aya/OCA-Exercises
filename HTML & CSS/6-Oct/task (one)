@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>web page using bootstrap</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      margin-top: 2%;
+    }
+
+    .form-check-inline {
+      margin-left: 1%;
+    }
+
+    .Date {
+      margin-left: 1%
+    }
+
+    .button {
+      margin-left: 1%
+    }
+  </style>
+</head>
+
+<body>
+
+  <form>
+    <div class="form-row1">
+      <div class="col">
+        <p> First name :</p> <input type="text" class="form-control" placeholder="" style="width: 50rem;">
+      </div>
+    </div>
+
+    <div class="form-row2">
+      <div class="col">
+        <p>Last name :</p> <input type="text" class="form-control" placeholder="" style="width: 50rem;"> <br>
+
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Male</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Female</label>
+      </div>
+      <div class="button">
+        <button type="submit" class="btn btn-primary">Add</button>
+      </div>
+
+      <div class="Date">
+        <p>Date of birth :</p> <label for="date"></label>
+        <input type="date" id="date" style="width: 50rem;">
+      </div>
+    </div>
+
+
+  </form>
+</body>
+
+</html>
