@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  * {
+    box-sizing: border-box;
+    margin-left: 5;
+    padding: 0;
+    justify-content: center;
+
+  }
+
+  .grid1 {
+    display: grid;
+    grid-template-columns: 296px 198px;
+    /* grid-template-columns: repeat(2, 100px); */
+    /* /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-gap: 1.25rem;
+    grid-gap: 1.5rem;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 150px 122px 198px;
+    /* grid-template-columns: repeat(2, 100px); */
+    /* /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-gap: 1.25rem;
+    grid-gap: 1.5rem;
+  }
+
+
+  .grid3 {
+    display: grid;
+    grid-template-columns: 296px 198px;
+    /* grid-template-columns: repeat(2, 100px); */
+    /* /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-gap: 1.25rem;
+    grid-gap: 1.5rem;
+  }
+
+  .grid4 {
+    display: grid;
+    grid-template-columns: 111.5px 111.5px 111.5px 111.5px;
+    /* grid-template-columns: repeat(2, 100px); */
+    /* /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-gap: 1.25rem;
+    grid-gap: 1.5rem;
+  }
+
+  .grid5 {
+    display: grid;
+    grid-template-columns: 519px;
+    /* grid-template-columns: repeat(2, 100px); */
+    /* /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-gap: 1.25rem;
+    grid-gap: 1.5rem;
+  }
+
+  .grid6 {
+    display: grid;
+    grid-template-columns: 69.3%;
+    /* grid-template-columns: repeat(2, 100px); */
+    /* /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-gap: 1.25rem;
+    grid-gap: 1.5rem;
+  }
+
+  .item1 {
+    background: blue;
+    margin-top: 0.5rem;
+    /* padding: 0.75rem; */
+    height: 18vh;
+
+
+  }
+
+  .item2 {
+    background: rgb(178, 13, 255);
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    height: 18vh;
+  }
+
+  .item3 {
+    background: rgb(252, 255, 77);
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    height: 18vh;
+  }
+
+  .item4 {
+    background: rgb(252, 255, 77);
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    height: 18vh;
+  }
+
+  .item5 {
+    background: rgb(252, 255, 77);
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    height: 18vh;
+  }
+
+
+  .item6 {
+    background: rgb(178, 13, 255);
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    height: 18vh;
+  }
+
+
+  .item7 {
+    background: blue;
+    margin-top: 0.5rem;
+    /* padding: 0.75rem; */
+    height: 18vh;
+  }
+
+
+  .item8 {
+    background: coral;
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    height: 18vh;
+  }
+
+  .item9 {
+    background: coral;
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    height: 18vh;
+  }
+
+
+  .item10 {
+    background: coral;
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    height: 18vh;
+  }
+
+
+  .item11 {
+    background: coral;
+    margin-top: 0.5rem;
+    /* padding: 0.75rem; */
+    height: 18vh;
+  }
+
+
+
+  .header {
+
+    background: lightgray;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    height: 8vh;
+  }
+
+
+  footer {
+    background: lightgray;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    height: 8vh;
+  }
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="live code 2.css">
+</head>
+
+<body>
+  <div class="grid5">
+    <section class="header"></section>
+  </div>
+  <div class="grid1">
+
+    <div class="item1"></div>
+    <div class="item2"></div>
+
+
+  </div>
+  <div class="grid2">
+    <div class="item3"></div>
+    <div class="item4"></div>
+    <div class="item5"></div>
+  </div>
+
+
+  <div class="grid3">
+    <div class="item6"></div>
+    <div class="item7"></div>
+  </div>
+
+  <div class="grid4">
+    <div class="item8"></div>
+    <div class="item9"></div>
+    <div class="item10"></div>
+    <div class="item11"></div>
+  </div>
+
+  <!-- <section class="footer">
+  </section> -->
+
+  <div class="grid5">
+    <footer></footer>
+  </div>
+</body>
+
+</html>
