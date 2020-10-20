@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Head-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page-level</title>
+  <style>
+    .one {
+  text-align: left;
+}
+
+#para {
+
+  border-width: 0px;
+  overflow: hidden;
+}
+
+div[id^="page"] {
+  margin: 0px;
+}
+
+.container-class {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: px;
+  height: 200px;
+  overflow: hidden;
+  background-size: cover;
+  color: white;
+  border-left: 100px;
+  border: white;
+  padding-left: 5px;
+
+}
+
+
+.page-id2.container-class {
+  background-image: url("https://www.ostraining.com/cdn/images/mikehelp/help-peninsula.png");
+}
+</style>
+  <!-- <link rel="stylesheet" href="Page-level.css"> -->
+
+  </>
+</head>
+
+
+<body>
+  <h1>
+    Page-level & inline CSS Styling
+  </h1>
+  <div class="one">
+    <p style="color: orange;">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quos quidem illum quisquam et quis optio
+      recusandae neque ab. Quos quod nesciunt id ab non quam provident labore, numquam sequi. Lorem ipsum dolor, sit
+      amet
+      consectetur adipisicing elit. Perferendis in veniam quis animi, quas nisi natus dolores excepturi provident?
+      Reprehenderit laboriosam cumque, nemo soluta nobis vero itaque eius facere accusantium.
+
+    </p>
+  </div>
+  <div id="para">
+    <p><b>Inline CSS</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita voluptates perspiciatis
+      non
+      itaque neque unde ab excepturi et, dolor veritatis reiciendis iure ducimus totam amet harum adipisci nobis
+      corrupti.
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus illum quia repellat mollitia natus quos, velit
+      optio at nisi. Ratione, modi. Omnis ut consequatur sint. Iusto rerum facilis quisquam necessitatibus.
+    </p>
+  </div>
+
+
+
+  <div id="page">
+    <div class="page-id2 container-class">
+      <p style="text-align: unset;">What a beautiful sunrise Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Necessitatibus corporis, ea
+        qui temporibus blanditiis veritatis harum magni labore nulla animi tempore vel reiciendis fugit laborum, sequi,
+        dolorem expedita! Explicabo, ipsam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In deleniti
+        explicabo nam rerum a nihil, pariatur inventore eum quaerat nisi illum, quo laboriosam tempora nobis ab. Quas
+        vel accusantium hic?l Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatem ipsam alias
+        beatae sed nam numquam doloribus necessitatibus cupiditate ipsa quam quidem fuga incidunt voluptates fugiat,
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos ullam doloribus similique provident
+        obcaecati sapiente quibusdam atque. Voluptatibus veniam accusantium porro dicta voluptate eligendi placeat minus
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id deleniti tempore ipsum odit optio ad, voluptatum
+        facere, libero sit pariatur porro? Architecto magni quia quibusdam, labore corporis libero sequi nisi!
+        doloribus eius vitae?
+        minima dicta provident explicabo?</p>
+    </div>
+  </div>
+
+
+
+
+  </div>
+
+
+</body>
+
+</html>
