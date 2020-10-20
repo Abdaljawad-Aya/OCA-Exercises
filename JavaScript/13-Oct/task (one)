@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
+
+  <script>
+
+    
+// student name and the mark for every subject
+
+    function fn1()
+   {
+    var str = document.getElementById("text").value;
+    alert('student name ' + str);
+   }
+
+   function welcome(){
+     alert ('Please Enter Your Mark For Each Subject')
+   }
+   
+
+   function calculate()
+   {
+     var field1=document.getElementById('num1').value;
+     var field2=document.getElementById('num2').value;
+     var field3=document.getElementById('num3').value;
+     var field4=document.getElementById('num4').value;
+     var field5=document.getElementById('num5').value;
+     var field6=document.getElementById('num6').value;
+     
+
+     var result=parselnt(field1) + parseInt(field2) + parseInt(field3) + parseInt(field4) + parseInt(field5) + parseInt(field6);
+     if(!isNaN(result))
+     {
+       document.getElementById('answer').innerHTML='The answer is' + result;       
+     }
+
+    //  var student = [[math],[English],[Arabic],[Bio],[Computer],[Religion]]
+    //  const x = 100;
+
+    //  if (x =100) {
+    //  console.log(math);
+    //  console.log('true');
+    //  console.log('sass');
+  //  }
+  //  else if (50 >= 60){
+  //       console.log('pass');
+  //  }
+  //  else if (60 >= 70){
+  //       console.log('average');
+  //  }
+  //  else if (70 >= 80){
+  //       console.log('good');
+  //  }
+  //  else if (80 >= 90){
+  //       console.log('very good');
+  //  }
+  //  else if (90 >= 100) {
+  //       console.log('Excellent');
+  //  }
+   
+  //  else  {
+  //       console.log('fail');
+  //  }
+
+
+
+   }
+   math=prompt('enter math mark');
+   English=prompt('enter English mark');
+   Arabic=prompt('enter Arabic mark');
+   Bio=prompt('enter Bio mark');
+   Computer=prompt('enter Computer mark');
+   Religion=prompt('enter Religion mark');
+
+   
+   
+
+  //  sum=eval(math)+eval(English)+eval(Arabic)+eval(Bio)+eval(Computer)+eval(Religion);
+  //    document.write('the sum is ' +sum+'<br>');
+  //    avg=sum/6;
+ 
+ 
+  </script>
+</head>
+
+<body onload="welcome()"> <!--popup-->
+<input id="text" placeholder="Student name">
+<br>
+
+<button onclick='fn1()'id = 'btn1'>submit</button>
+<br><br>
+
+<h1 id="answer"></h1>
+<input type="text" id="num1" placeholder="Math"> 100<br><br>
+<input type="text" id="num2" placeholder="English"> 100<br><br>
+<input type="text" id="num3" placeholder="Arabic"> 100<br><br>
+<input type="text" id="num4" placeholder="Bio"> 100<br><br>
+<input type="text" id="num5" placeholder="Computer"> 100<br><br>
+<input type="text" id="num6" placeholder="Religion"> 100
+
+<br>
+<br>
+<button onclick='calculate()'>Calculate</button>
+
+</body>
+</html>
+      
+  
