@@ -36,17 +36,22 @@ console.log(Person1.id);
 console.log(Person2.name);
 console.log(Person3.age);
 
-class Teacher extends Person (
-  constructor (id,name,age) {
-     super(id,name,age);
-  }
-  }
+class Teacher extends Person {
+  constructor(id , name , age , subject , grade) {
+    super(id , name , age);
 
-  Sobhi(){
-    console.log(`Hi! ${this.name}`);
-  };
+    this.subject = subject;
+    this.grade = grade;
+  }
+}
+  
+let john = new Teacher (598 , "Max" , 25, math , 40);
+john.greeting();
+john.age;
+john.subject;
 
-let Teacher1 = new Teacher (589 , "Max" , 25);
+console.log(john.subject)
+
 
 
 
