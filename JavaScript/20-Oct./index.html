@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF8">
+  <meta name="viewport" content="width=devicewidth, initialscale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    
+
+
+// class Person //
+
+
+
+class Person {
+   constructor (id , name , age ) {
+
+   this.id = id;
+   this.name = name; 
+   this.age = age ;
+}
+  greeting (){
+     return `Hello ${this.name}`;
+   };
+
+}
+
+let Person1 = new Person(555 , "Jamie" , 30);
+let Person2 = new Person(888 , "John" , 30);
+let Person3 = new Person(999 , "Sam" , 30);
+
+console.log(Person1.id);
+console.log(Person2.name);
+console.log(Person3.age);
+
+class Teacher extends Person (
+  constructor (id,name,age) {
+     super(id,name,age);
+  }
+  }
+
+  Sobhi(){
+    console.log(`Hi! ${this.name}`);
+  };
+
+let Teacher1 = new Teacher (589 , "Max" , 25);
+
+
+
+// Class cars // 
+
+// class Car {
+//   constructer(id ,type, year){
+//     this.id = id;
+//     this.type = type;
+//     this.year = year;
+
+//   }
+//   start (){
+//      return `The car is running ${this.type} `;
+//    };
+
+// }
+// let Car1 = new Car(569852 , "Suzuki Samurai" , 1983);
+// let Car2 = new Car(556299 , "BMW 325I SEDAN" , 1990);
+// let Car3 = new Car(616161 , "Mercedes G Class" , 2015);
+
+// console.log(Car1.id);
+// console.log(Car2.type);
+// console.log(Car3.year);
+
+// class Animal //
+
+// class Animal (id , name , isPet(boolean)){
+//    this.id = `#${id}`;
+//    this.name = name;
+//    this.isPet(boolean) = isPet(boolean);
+
+// }
+
+// homeAnimal (){
+//      return `this animal ${this.isPet(boolean)} `;
+//    };
+
+
+// let Person1 = new Person(1 , "kangaroo" , false );
+// let Person2 = new Person(2 , "Dogs" , true);
+// let Person3 = new Person(3 , "Cats" , false);
+
+//    console.log(Person1.id);
+//    console.log(Person1.name);
+//    console.log(Person1.isPet(boolean));
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+ 
+
+
+</body>
+</html>
