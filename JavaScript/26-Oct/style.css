@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+#canvas{
+  background:lightblue;
+  width: 250%;
+ 
+}
+#canvas1{
+  background: cyan;
+  width: 50%;
+
+}
+
+ .is-hidden {
+  display: none;
+}
+
+.btn {
+  
+  /* border-radius: 3px;  */
+   display: inline-block;
+   padding: 5px;
+ 
+}
+
+  
+
+
+
+/* Second Attempt */
+
+/* @keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn .5s ease-in 1 forwards;
+}
+
+.is-paused {
+  animation-play-state: paused;
+} */
+
+/* #canvas {
+  opacity: 1 ;
+  -webkit-transition:  0.3s ease-in-out;
+  -moz-transition:  0.3s ease-in-out;
+  -o-transition:  0.3s ease-in-out;
+  transition:  0.3s ease-in-out;
+}
+
+#canvas:hover {
+  background-color: white;
+  cursor: pointer;
+} */
